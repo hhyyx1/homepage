@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     color: #333;
     min-height: 100vh;
-    cursor: url('https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/No_Disponible.cur'), auto;
+    cursor: url('[invalid url, do not cite]), auto;
 }
 nav {
     position: fixed;
@@ -27,7 +27,7 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
-    cursor: url('https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/ayuda.cur'), pointer;
+    cursor: url('[invalid url, do not cite]), pointer;
 }
 nav a:hover {
     text-decoration: underline;
@@ -67,5 +67,5 @@ h1, h2 {
     border-radius: 5px;
 }
 input[type="text"], textarea {
-    cursor: url('https://s.nmxc.ltd/sakurairo_vision/@2.6/cursor/texto.cur'), text;
+    cursor: url('[invalid url, do not cite]), text;
 }

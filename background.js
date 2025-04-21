@@ -4,7 +4,15 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth < 768) {
         bgUrl = `[invalid url, do not cite]
     } else {
-        bgUrl = `[invalid url, do not cite]&t=${timestamp}`;
+        bgUrl = `[invalid url, do not cite]
     }
-    document.body.style.backgroundImage = `url('${bgUrl}')`;
+    const img = new Image();
+    img.onload = function() {
+        document.body.style.backgroundImage = `url('${bgUrl}')`;
+    };
+    img.onerror = function() {
+        console.error('背景图加载失败，使用备用图片');
+        document.body.style.backgroundImage = `url('https://picsum.photos/1920/1080')`;
+    };
+    img.src = bgUrl;
 });
