@@ -1,5 +1,7 @@
 # Personal Homepage
 
+![{C6A524F1-6AEA-4A18-98DF-FBDE8A8303FA}.png](https://cfimg.7374520.xyz/file/1745243960234_{C6A524F1-6AEA-4A18-98DF-FBDE8A8303FA}.png)
+**目前只是一个大概框架，基本上啥都没有，如果想用可以自己动动手修改**.
 ## 关于项目
 
 这是一个轻量级的个人主页，项目名为 "homepage"，使用 HTML、CSS 和 JavaScript 构建。它具有动态背景、交互式头像和导航栏，适合展示个人简介、项目和联系方式。网页托管在 GitHub 上，支持通过 GitHub Pages、Cloudflare Pages 或 Vercel 部署。
