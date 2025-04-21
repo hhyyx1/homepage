@@ -117,5 +117,3 @@ tsparticles 库通过 CDN 加载，确保网络连接正常。
 
 许可证
 本项目采用 MIT 许可证，详情见 LICENSE.md 文件。
-联系方式
-如有问题或建议，请通过 [admin@7374520.com] 联系我，或访问我的 GitHub 主页。
