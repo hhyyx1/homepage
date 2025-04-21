@@ -76,3 +76,7 @@ MIT License
 ## 联系方式
 
 如有问题或建议，请通过 [联系方式](https://t.me/kkz114514Bot "问题反馈❓") 联系，或访问我的 GitHub 主页。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=imsyy/home,hhyyx1/homepage&type=Date)](https://www.star-history.com/#imsyy/home&hhyyx1/homepage&Date)
