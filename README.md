@@ -75,4 +75,4 @@ MIT License
 
 ## 联系方式
 
-如有问题或建议，请通过 your@email.com 联系，或访问我的 GitHub 主页。
+如有问题或建议，请通过 [联系方式](https://t.me/kkz114514Bot "问题反馈❓") 联系，或访问我的 GitHub 主页。
