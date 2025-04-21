@@ -79,4 +79,4 @@ MIT License
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=imsyy/home,hhyyx1/homepage&type=Date)](https://www.star-history.com/#imsyy/home&hhyyx1/homepage&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=hhyyx1/homepage&type=Date)](https://www.star-history.com/#hhyyx1/homepage&Date)
