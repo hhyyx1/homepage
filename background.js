@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const timestamp = new Date().getTime();
     let bgUrl;
     if (window.innerWidth < 768) {
-        bgUrl = `[invalid url, do not cite]
+        bgUrl = `https://api.maho.cc/random-img/mobile.php?t=${timestamp}`;
     } else {
-        bgUrl = `[invalid url, do not cite]
+        bgUrl = `https://moe.jitsu.top/api/?sort=pc&size=original&t=${timestamp}`;
     }
     const img = new Image();
     img.onload = function() {

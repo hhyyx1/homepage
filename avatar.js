@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const avatar = document.querySelector('.avatar');
+    if (!avatar) {
+        console.error('未找到头像元素');
+        return;
+    }
     avatar.addEventListener('click', function(event) {
         const x = event.clientX;
         const y = event.clientY;
@@ -8,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function addParticles(x, y) {
+    if (!window.particlesContainer) {
+        console.error('tsparticles 未初始化');
+        return;
+    }
     for (let i = 0; i < 30; i++) {
         const color = ["rgba(255,182,185,.9)", "rgba(250,227,217,.9)", "rgba(187,222,214,.9)", "rgba(138,198,209,.9)"][Math.floor(Math.random() * 4)];
         const radius = 16 + Math.random() * 16;
